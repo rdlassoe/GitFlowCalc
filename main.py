@@ -1,7 +1,7 @@
 from operaciones.suma import suma
 from operaciones.resta import resta
-#from operaciones.multiplicacion import multiplicacion
-#from operaciones.division import division
+from operaciones.multiplicacion import multiplicacion
+from operaciones.division import division
 
 def menu():
     print("Calculadora Modular - Python")
@@ -25,11 +25,9 @@ if __name__ == "__main__":
     elif opcion == '2':
         print("Resultado:", resta(a, b))
     elif opcion == '3':
-        print("por implementar")
-        #print("Resultado:", multiplicacion(a, b))
-    elif opcion == '4':
-        print("por implementar")
+        print("Resultado:", multiplicacion(a, b))
 
-        #print("Resultado:", division(a, b))
+    elif opcion == '4':
+        print("Resultado:", division(a, b))
     else:
         print("Opción inválida.")
