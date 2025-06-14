@@ -46,4 +46,3 @@ elif opcion == '6':
     print("Resultado:", raiz(a))
 else:
     print("Opción inválida.")
-    
